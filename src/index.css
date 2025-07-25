@@ -8,59 +8,64 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* TimeAura Luxury Design System */
-    --background: 0 0% 100%;
-    --foreground: 240 10% 8%;
+    /* TimeAura Ambient Design System */
+    --background: 270 15% 8%;
+    --foreground: 270 25% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 8%;
+    --card: 270 12% 12%;
+    --card-foreground: 270 25% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 8%;
+    --popover: 270 12% 12%;
+    --popover-foreground: 270 25% 95%;
 
-    /* Luxury Black Primary */
-    --primary: 240 10% 8%;
-    --primary-foreground: 0 0% 98%;
+    /* Ambient Purple Primary */
+    --primary: 280 85% 65%;
+    --primary-foreground: 270 15% 8%;
 
-    /* Elegant Secondary */
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 240 10% 8%;
+    /* Soft Green Secondary */
+    --secondary: 150 40% 40%;
+    --secondary-foreground: 270 25% 95%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 240 5% 64%;
+    --muted: 270 10% 15%;
+    --muted-foreground: 270 15% 70%;
 
-    /* Luxury Gold Accent */
-    --accent: 45 100% 70%;
-    --accent-foreground: 240 10% 8%;
+    /* Vibrant Green Accent */
+    --accent: 150 70% 60%;
+    --accent-foreground: 270 15% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 45 100% 70%;
+    --border: 270 15% 20%;
+    --input: 270 15% 20%;
+    --ring: 280 85% 65%;
 
-    /* TimeAura Custom Colors */
-    --luxury-gold: 45 100% 70%;
-    --luxury-gold-dark: 38 92% 50%;
-    --luxury-black: 240 10% 8%;
-    --luxury-charcoal: 240 8% 12%;
-    --luxury-white: 0 0% 100%;
-    --luxury-gray: 240 5% 64%;
+    /* TimeAura Ambient Colors */
+    --ambient-purple: 280 85% 65%;
+    --ambient-purple-dark: 285 75% 45%;
+    --ambient-green: 150 70% 60%;
+    --ambient-green-dark: 155 60% 40%;
+    --ambient-deep: 270 15% 8%;
+    --ambient-dark: 270 12% 12%;
+    --ambient-light: 270 25% 95%;
+    --ambient-muted: 270 15% 70%;
     
-    /* Premium Gradients */
-    --gradient-luxury: linear-gradient(135deg, hsl(var(--luxury-gold)) 0%, hsl(var(--luxury-gold-dark)) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(var(--luxury-black)) 0%, hsl(var(--luxury-charcoal)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(var(--luxury-white)) 0%, hsl(0 0% 98%) 100%);
+    /* Ambient Gradients */
+    --gradient-luxury: linear-gradient(135deg, hsl(var(--ambient-purple)) 0%, hsl(var(--ambient-green)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--ambient-deep)) 0%, hsl(var(--ambient-dark)) 50%, hsl(var(--ambient-purple-dark)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--ambient-dark)) 0%, hsl(270 10% 15%) 100%);
+    --gradient-ambient: linear-gradient(45deg, hsl(var(--ambient-purple) / 0.3) 0%, hsl(var(--ambient-green) / 0.3) 100%);
     
-    /* Elegant Shadows */
-    --shadow-luxury: 0 25px 50px -12px hsl(var(--luxury-black) / 0.25);
-    --shadow-card: 0 10px 25px -5px hsl(var(--luxury-black) / 0.1);
-    --shadow-gold: 0 10px 25px -5px hsl(var(--luxury-gold) / 0.3);
+    /* Glowing Shadows */
+    --shadow-luxury: 0 25px 50px -12px hsl(var(--ambient-purple) / 0.4);
+    --shadow-card: 0 15px 35px -5px hsl(var(--ambient-purple) / 0.2);
+    --shadow-green: 0 15px 35px -5px hsl(var(--ambient-green) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--ambient-purple) / 0.5);
     
     /* Smooth Transitions */
-    --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-luxury: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
